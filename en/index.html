@@ -1,86 +1,616 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
+
 <head>
-  <title>David A J Lee BSc(Hons) PhD</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/theme.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>David A J Lee BSc(Hons) PhD</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v1.3.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-    
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span> 
-                </button>
-                <a class="navbar-brand" href="index.html">David A J Lee BSc(Hons) PhD</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="software.html">Software</a></li>
-                </ul>
-            </div>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-image.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">David A J Lee</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/DaveAJLee" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/app_scoped_user_id/10153084843743970/" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://de.linkedin.com/in/david-lee-995a64b4" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.youtube.com/channel/UCAvevAq4cnQTxbGsQKL3YSw" class="youtube"><i class="bx bxl-youtube"></i></a>
+          <a href="https://www.github.com/daveajlee" class="github"><i class="bx bxl-github"></i></a>
         </div>
-    </nav>
+      </div>
 
-    <div class="container-fluid bg-1 text-center">
-        <h3 class="margin">Welcome!</h3>
-        <img src="../images/davelee.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profilfoto">
-        <p>In March 2010, I was awarded my Doctor of Philosophy degree after a successful defence of my doctoral thesis entitled “Hybrid Algorithms for Distributed Constraint Satisfaction”. I have many years of practical software development, architecture and modelling in addition to my degrees. I have also developed a number of freely available software programmes as well as web sites for various organisations.</p>
-        <p>I also hold a First Class Honours Bachelor of Science degree from the Robert Gordon University. During my studies, I received a number of awards.</p>
-        <p>I am currently working as Software Architect with myToys.de GmbH in Berlin, Germany.</p>
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="#research"><i class="bx bx-shape-polygon"></i> Research</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
     </div>
+  </header><!-- End Header -->
 
-    <div class="container-fluid bg-2 text-center">
-        <h3 class="margin">More information about me...</h3>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>David A J Lee</h1>
+      <p><span class="typed" data-typed-items="Software Developer, Software Architect, Product Owner, BSc(Hons) PhD"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Originally from Scotland, I moved to Germany in 2010. Since 2018, I have dual nationality. I graduated with a PhD in Computing Science in 2010 building upon a BSc(Hons) in Computing for Business and E-Commerce from 2006. For over 10 years I have been working in the software industry particularly focusing on the exciting domain of e-commerce.</p>
+        </div>
+
         <div class="row">
-            <div class="col-sm-4">
-                <p>I have over 10 years experience as a Software Developer and Software Architect. You can read the most important facts in my portfolio!</p>
-                <img src="../images/portfolio.jpg" class="img-responsive margin" style="width:100%" alt="Profilfoto">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-big.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Software Developer &amp; Architect &amp; Product Owner</h3>
+            <p class="font-italic">
+              I have over 14 years experience in software development. During this time, I have also worked additionally as a software architect and product owner so that I can offer a wide range of soft skills around software development.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 35</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.davelee.de</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong>PhD in Computing Science</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Berlin, Germany</li>
+                </ul>
+              </div>
             </div>
-            <div class="col-sm-4">
-                <p>I have developed a number of software applications over the last few years in a number of languages. Visit the Software page to download my software.</p>
-                <img src="../images/softwaretramspman.png" class="img-responsive margin" style="width:100%" alt="Software Logos">
-            </div>
-            <div class="col-sm-4"> 
-                <p>I have worked in a number of research projects. You can find out more by visiting the Research page and/or by downloading some of my publications.</p>
-                <img src="../images/graduation.jpg" class="img-responsive margin" style="width:100%" alt="Doktorarbeit Abschlussfeier">
-            </div>
+            <p>
+              I would define software development as building great products for customers - therefore regular contact with stakeholders is essential. I believe in using the power of agile methods such as Scrum and Kanban to prioritise and deliver quickly minimum viable products for customers whilst maintaining the bigger picture through the product vision and product roadmaps. Through the use of clean architectures and codes we can build solutions that serve customers over many years.
+            </p>
+          </div>
         </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Here are some interesting facts about me and my life as a software developer and on this Earth:</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="icofont-flag"></i>
+              <span data-toggle="counter-up">2</span>
+              <p><strong>Nationalities</strong> - German & British</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="icofont-worker"></i>
+              <span data-toggle="counter-up">14</span>
+              <p><strong>Years experience</strong> in software development</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="icofont-document-folder"></i>
+              <span data-toggle="counter-up">18</span>
+              <p><strong>Repositories/Projects</strong> on GitHub</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="icofont-train-line"></i>
+              <span data-toggle="counter-up">1,263</span>
+              <p><strong>Kilometres</strong> - average distance travelled in one month</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p><span style="font-weight:bold;">Software Development</span><br/>I have extensive knowledge of Java focusing particularly on the development of RESTful Web Services and Microservices using the Spring Framework. Most of my applications I have built using Maven with the Git version control system. I have used FishEye for code reviews and Jenkins for building Continuous Integration pipelines. I also have some experience of using C#, Visual Basic and Perl. I use Visual Studio Code, Intellij IDEA and Eclipse as IDEs.
+          <br/><br/><span style="font-weight:bold;">Web Development</span><br/>I have extensive knowledge of building web sites for both commercial and non-profit organisation using primarily the LAMP Stack (Apache/MySQL/PHP). I also have knowledge in CSS and JavaScript and have used the NGINX web server as a proxy server.
+          <br/><br/><span style="font-weight:bold;">Software Architecture & Project Management</span><br/>I have experience planning, developing & maintaining monolithic, SOA (Service Orientated Architecture) & microservice architectures. I have experience of using both BPMN and UML as modelling tools. I have experience of using JIRA, YouTrack, Asana, Trello and Mantis for operative project management.
+          <br/></p>
+          <p><br/>
+            <span style="font-weight:bold;">Continued Professional Development</span><br/>
+            I think it is important to extend and update my knowledge on a continual basis. The three most recent training courses that I have completed are:
+            <ol>
+              <li><a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/">Udemy: Ultimate AWS Certified Solutions Architect Associate 2020</a></li>
+              <li><a href="https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/">Udemy: Ultimate AWS Certified Developer Associate 2020</a></li>
+              <li><a href="https://masterplan.com/de/">Masterplan: Foundations of Digitalisation</a></li>
+            </ol>
+            <br/><span style="font-weight:bold;">Skill Matrix</span>
+          </p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">Java <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Spring Framework (Spring Boot, Data etc.) <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CI/CD DevOps (Jenkins, Maven, ...) <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Web Development (HTML, PHP/MySQL, CSS) <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Project Management Tools (e.g. Jira, Asana) <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Cloud Computing (AWS)<i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p><!--Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.--></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>David A J Lee</h4>
+              <p><em>Experienced and passionate software developer, architect and product owner with +14 years of experience in software development from requirements through an initial concept and minimum viable products to a great product for the customer.</em></p>
+              <ul>
+                <li>Berlin, Germany</li>
+                <li>Get in contact with me through the <a href="#contact">contact formular</a>.</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Certified Professional Software Architect (Foundation Level)</h4>
+              <h5>2015</h5>
+              <p><em>Hamburg, Germany</em></p>
+              <p>Topics included: foundations of software architectures, components/building blocks, interfaces, architectural goals, quality goals and tools.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Doctor of Philosophy in Computing</h4>
+              <h5>2006 - 2010</h5>
+              <p><em>The Robert Gordon University, Aberdeen, Scotland</em></p>
+              <p>Thesis title: Hybrid Algorithms for Distributed Constraint Satisfaction. In my doctoral research, I investigated and developed hybrid algorithms for Distributed Constraint Satisfaction, combining the convergence abilities of local search with the completeness of backtracking. This has led to the development of new algorithms for Distributed Constraint Satisfaction including PenDHyb, Multi-Hyb und Multi-HDCS.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Science with 1st Class Honours in Computing for Business and E-Commerce</h4>
+              <h5>2002 - 2006</h5>
+              <p><em>The Robert Gordon University, Aberdeen, Scotland</em></p>
+              <p>This degree combined a standard Computing Science degree with several business modules such as Marketing, Accounting and Change Management particularly focused on an E-Commerce context.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior Product Manager</h4>
+              <h5>July 2020 - Present</h5>
+              <p><em>myToys.de GmbH, Berlin, Germany </em></p>
+              <ul>
+                <li>Responsible for search and product data systems.</li>
+                <li>Customer-centric product development and benchmarking. </li>
+                <li>Development of product backlog (business & technical).</li>
+                <li>Coaching other product managers and product owners.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Product Manager</h4>
+              <h5>February 2018 - June 2020</h5>
+              <p><em>myToys.de GmbH, Berlin, Germany </em></p>
+              <ul>
+                <li>Responsible for the development of Content Management System.</li>
+                <li>Development of product backlog & stakeholder management.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Software Architect</h4>
+              <h5>July 2014 - January 2018</h5>
+              <p><em>myToys.de GmbH, Berlin, Germany </em></p>
+              <ul>
+                <li>40% software development of prototypes and techniques.</li>
+                <li>30% technical leadership of projects</li>
+                <li>30% future architecture (vision, technical roadmap, standards)</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Software Developer</h4>
+              <h5>August 2010 - June 2014</h5>
+              <p><em>myToys.de GmbH, Berlin, Germany </em></p>
+              <ul>
+                <li>Backend-based Java developer to develop systems including:</li>
+                <li>Java-based Server/Client System with REST for Coupons (Database, Java Backend, Wicket Frontend, Maven, Spring-MVC, Hibernate, Tomcat) including migration of 30 million codes</li>
+                <li>Job Portal (Java, Maven, Spring-MVC, Hibernate, Oracle DB, Tomcat) for recruitment.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="resume-title">Extra-curricular activities</h3>
+
+        <p>I have given a number of technical talks over the years. Two of these are available online: 
+          <ol>
+            <li><a href="https://mytoysdevblog.wpengine.com/index.php/2017/04/19/videos-and-slides-from-our-techtalks/">Developer’s Roadtrip to Heaven? myToys transition from SOA to Microservices Architecture</a></li>
+            <li><a href="https://mytoysdevblog.wpengine.com/index.php/2017/04/19/videos-and-slides-from-our-techtalks/">On The Road to Continuous Delivery</a></li>
+          </ol>
+          I have also been part of the organising teams for the <a href="https://mices.co/">MICES conference</a> since 2017.
+        </p>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>I have developed a substantial amount of freely available open source software. The software range contains human resources management software, a transport simulator game, statistical software and some scripts for DevOps operations. This software is licenced under the GNU General Public Licence.</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/personalman-logo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/personalman-logo.png" data-gall="portfolioGallery" class="venobox" title="PersonalMan"><i class="bx bx-plus"></i></a>
+                <a href="personalman.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/trams-logo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/trams-logo.png" data-gall="portfolioGallery" class="venobox" title="TraMS"><i class="bx bx-plus"></i></a>
+                <a href="trams.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/contacty-logo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/contacty-logo.png" data-gall="portfolioGallery" class="venobox" title="Contacty"><i class="bx bx-plus"></i></a>
+                <a href="contacty.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/mdiscis-logo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/mdiscis-logo.png" data-gall="portfolioGallery" class="venobox" title="MDISCIS"><i class="bx bx-plus"></i></a>
+                <a href="mdiscis.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/statsres-logo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/statsres-logo.png" data-gall="portfolioGallery" class="venobox" title="Statsres"><i class="bx bx-plus"></i></a>
+                <a href="statsres.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/devops-logo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/devops-logo.png" data-gall="portfolioGallery" class="venobox" title="DevOps Scripts"><i class="bx bx-plus"></i></a>
+                <a href="devops-scripts.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Research section ======= -->
+    <section id="research" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Research</h2>
+          <h4 class="resume-title">Distributed Constraint Satisfaction</h4>
+          <p>Constraint Satisfaction Problems are solved by algorithms assigning values (from a domain) to variables in the problem so that all constraints are satisfied. 
+            In Distributed Constraint Satisfaction Problems, variables are represented by agents who have only a partial understanding of the problem (their understanding is limited to the variables they represent and the constraints that those variables are involved in). 
+            Distributed problems are important when information cannot be shared either because there is too much information or because of privacy concerns. 
+            Existing algorithms for Distributed Constraint Satisfaction can be categorised as backtracking and local search algorithms. 
+            The former, whilst able to guarantee completeness, are often too slow for practical use whilst the later are often able to converge to a solution quicker but may not solve all problems (i.e. they are incomplete). 
+            In a summer scholarship in 2005 (supervised by Dr. Ines Arana & Dr. Hatem Ahriz), I compared the Distributed Breakout Algorithm with the Distributed Stochastic Algorithm on randomly-generated problems and scheduling problems. 
+            The tentative conclusions suggested that the Distributed Breakout Algorithm was more suited to randomly-generated problems whilst the Distributed Stochastic Algorithm performed better on scheduling problems. 
+            A prize was awarded for the research undertaken during this project. In addition to my research, I developed an experimental workbench written in Java to compare Distributed Constraint Satisfaction algorithms. 
+            In my doctoral research (supervised by Dr. Ines Arana, Dr. Hatem Ahriz & Dr. Kit-Ying Hui), I investigated and developed hybrid algorithms for Distributed Constraint Satisfaction, combining the convergence abilities of local search with the completeness of backtracking. 
+            This has led to the development of new algorithms for Distributed Constraint Satisfaction including PenDHyb, Multi-Hyb und Multi-HDCS.
+            I also continued to develop the experimental workbench (SEICOSSA – A Smart Experimental Interface for Constraints) which I started to develop during my initial scholarship. </p>
+            <br/><br/>
+          <h4 class="resume-title">Information Retrieval & Relevance Profiling</h4>
+          <p>Before starting my doctoral projects, I was involved in the Information Retrieval research field. Together with Professor David J. Harper I sought answers to the question how effective is relevance profiling in retrieving relevant pages of a book as defined by the book’s own index? This project sought to measure this effectiveness through an investigation of a number of weighting functions on the within-document retrieval tool, ProfileSkim. Conclusions from the project were presented at the Ninth Australasian Document Computing Symposium.</p>
+        </div>
+
+        <h3 class="resume-title">Publications</h3><br/>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-book"></i></div>
+            <h4 class="title"><a href="https://rgu-repository.worktribe.com/output/247974/hybrid-algorithms-for-distributed-constraint-satisfaction">Hybrid algorithms for distributed constraint satisfaction</a></h4>
+            <p class="description">Doctoral Thesis <a href="https://rgu-repository.worktribe.com/output/247974/hybrid-algorithms-for-distributed-constraint-satisfaction"><i class="icofont-file-pdf"></i></a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-read-book"></i></div>
+            <h4 class="title"><a href="https://rgu-repository.worktribe.com/output/247990/multi-hdcs-solving-discsps-with-complex-local-problems-cooperatively">Multi-HDCS: Solving DisCSPs With Complex Local Problems Cooperatively.</a></h4>
+            <p class="description">LEE, D. and ARANA, I. and AHRIZ, H. and HUI, K. 2010. Multi-HDCS: Solving DisCSPs With Complex Local Problems Cooperatively. In: Proceedings of 2010 IEEE/WIC/ACM International Conference on Intelligent Agent Technology (IAT 2010). 1st-3rd September 2010. Toronto: Canada. pp. 295-302. <a href="https://rgu-repository.worktribe.com/output/247990/multi-hdcs-solving-discsps-with-complex-local-problems-cooperatively"><i class="icofont-file-pdf"></i></a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="icofont-read-book"></i></div>
+            <h4 class="title"><a href="https://rgu-repository.worktribe.com/output/247964/multi-hyb-a-hybrid-algorithm-for-solving-discsps-with-complex-local-problems">Multi-Hyb: A Hybrid Algorithm for Solving DisCSPs with Complex Local Problems.</a></h4>
+            <p class="description">LEE, D. and ARANA, I. and AHRIZ, H. and HUI, K. 2009. Multi-Hyb: A Hybrid Algorithm for Solving DisCSPs with Complex Local Problems. In: Proceedings of 2009 IEEE/WIC/ACM International Conference on Intelligent Agent Technology (IAT 2009). 15th-18th September 2009. Milan: Italy. pp. 379-382. <a href="https://rgu-repository.worktribe.com/output/247964/multi-hyb-a-hybrid-algorithm-for-solving-discsps-with-complex-local-problems"><i class="icofont-file-pdf"></i></a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="icofont-read-book"></i></div>
+            <h4 class="title"><a href="https://rgu-repository.worktribe.com/output/247836">A Hybrid Approach to Solving Coarse-grained DisCSPs.</a></h4>
+            <p class="description">LEE, D. and ARANA, I. and AHRIZ, H. and HUI, K. 2009. A Hybrid Approach to Solving Coarse-grained DisCSPs. In: Proceedings of the Eighth International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2009). 10th-15th May 2009. Budapest, Hungary. pp. 1235-1236. <a href="https://rgu-repository.worktribe.com/output/247836"><i class="icofont-file-pdf"></i></a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="icofont-read-book"></i></div>
+            <h4 class="title"><a href="https://rgu-repository.worktribe.com/output/247765">A Hybrid Approach to Distributed Constraint Satisfaction</a></h4>
+            <p class="description">In: D. DOCHEV, M. PISTORE and P. TRAVERSO, ed. Artificial Intelligence: Methodology, Systems and Applications. 13th International Conference, AIMSA 2008 Varna, Bulgaria, September 4-6 2008 Proceedings. 4th-6th September 2008. Varna: Bulgaria. pp. 375-379. <a href="https://rgu-repository.worktribe.com/output/247765"><i class="icofont-file-pdf"></i></a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="icofont-read-book"></i></div>
+            <h4 class="title"><a href="https://people.eng.unimelb.edu.au/ammoffat/adcs2004/papers/paper02.pdf">On the Effectiveness of Relevance Profiling</a></h4>
+            <p class="description">HARPER, D. J. and LEE, D. 2004. On the Effectiveness of Relevance Profiling. In: P. BRUZA, A. MOFFAT and A. TURPIN, ed. Proceedings of the Ninth Australasian Document Computing Symposium. 13th December 2004. Melbourne: Australia. pp. 10-16. <a href="https://people.eng.unimelb.edu.au/ammoffat/adcs2004/papers/paper02.pdf"><i class="icofont-file-pdf"></i></a></p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Research Section -->
+
+    <!-- ======= Testimonials Section (currently disabled) ======= -->
+    <!--<section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Some testimonials which have been written about me....</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Something great about me. I was a big success at something....
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/profile-image.jpg" class="testimonial-img" alt="">
+            <h3>Name</h3>
+            <h4>Person</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Something great about me. I was a big success at something....
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/profile-image.jpg" class="testimonial-img" alt="">
+            <h3>Name</h3>
+            <h4>Person</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Something great about me. I was a big success at something....
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/profile-image.jpg" class="testimonial-img" alt="">
+            <h3>Name</h3>
+            <h4>Person</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Something great about me. I was a big success at something....
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/profile-image.jpg" class="testimonial-img" alt="">
+            <h3>Name</h3>
+            <h4>Person</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Something great about me. I was a big success at something....
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/profile-image.jpg" class="testimonial-img" alt="">
+            <h3>Name</h3>
+            <h4>Person</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section>--><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>You are very welcome to contact me about my profile or how my experience could help you in the future.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY3dnlhWGkT4MgTk5t6WuICffEPJ--VDqDLfmWoUnpha19Cg/viewform?embedded=true" width="640" height="905" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
-    
-    <footer class="container-fluid bg-3 text-center">
-        <p>You can find/contact me on Facebook, Google+, XING or LinkedIn:<br/>
-            <!-- Facebook -->
-            <a href="https://www.facebook.com/app_scoped_user_id/10153084843743970/"><img src="../../images/FB-f-Logo__blue_50.png" alt="Facebook" class="img-responsive margin" style="display:inline; padding-right:10px;"/></a> 
-            <!-- Google+: Füge diesen Code dort ein, wo die Box dargestellt werden soll. -->
-            <a href="https://plus.google.com/117115966865700089350?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;">
-            <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" class="img-responsive margin" style="display:inline; padding-right:10px;"/></a> 
-            <!-- Linkedin -->
-            <a href="https://de.linkedin.com/in/david-lee-995a64b4"><img src="../../images/In-2C-48px-TM.png" alt="Linkedin" class="img-responsive margin" style="display:inline"/></a> 
-            <!-- XING -->
-            <a href="https://www.xing.com/profile/David_Lee147"><img src="../../images/XNG_Sharebutton_v01-7d06f36109c803c7a79f5a5c597f1fb8c8ff4d310d74ee8f6b31a56b6d6c3eea.png" alt="XING" class="img-responsive margin" style="display:inline"/></a>
-        </p>
-        <p>It is also worthing checking out my GitHub profile:</p>
-            <!-- GitHub -->
-            <a href="https://www.github.com/daveajlee"><img src="../../images/GitHub_Logo.png" alt="GitHub" class="img-responsive margin" style="display:inline; background-color:white;"/></a>
-        </p>
-        <p>You can read this website in the following langauges:<br/>
-            <!-- Englisch -->
-            <a href="/en"><img src="../../images/british-flag-small.png" alt="Englisch" class="img-responsive margin" style="display:inline; padding-right:10px;"></a>
-            <!-- Deutsch -->
-            <a href="/"><img src="../../images/german-flag-small.png" alt="Deutsch" class="img-responsive margin" style="display:inline; padding-right:10px;"></a>
-        </p>
-    </footer>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
