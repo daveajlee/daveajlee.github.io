@@ -425,6 +425,29 @@ section {
   background-color: #149ddd;
 }
 
+.skills .certificates-carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.skills .certificates-carousel .owl-nav, .skills .certificates-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.skills .certificates-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.skills .certificates-carousel .owl-dot.active {
+  background-color: #149ddd !important;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
