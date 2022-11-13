@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="common/assets/css/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
     <link href="common/assets/css/website-style.css" rel="stylesheet">
-    <title>Bootstrap demo</title>
+    <link href="common/assets/css/aos.css" rel="stylesheet">
+    <title>David A J Lee BSc(Hons) PhD</title>
   </head>
   <body>
-    <div
-    class="img-fluid d-flex justify-content-center align-items-center bg-image">
-        <div class="hero-container" data-aos="fade-in">
-            <h1 class="hero-text">David Lee</h1>
+    <div class="img-fluid d-flex justify-content-center align-items-center bg-image">
+      <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+              <h1 class="name-text">David Lee</h1>
             <p><span class="typed" data-typed-items="Software Developer, Software Architect, Product Owner, BSc(Hons) PhD"></span></p>
             <p style="text-align:center;"><a href="/en/" class="hero-button">English</a>
                                     <br/><br/>
                                     <a href="/de/" class="hero-button">Deutsch</a></p>
-        </div>    
+            </div>
+      </div>
     </div>
     
     <script src="common/assets/js/bootstrap-5.2.2/bootstrap.bundle.min.js"></script>
+    <script src="common/assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
