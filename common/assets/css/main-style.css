@@ -22,19 +22,28 @@
     font-size: 26px;
     color: black;
 }
+body {
+    background-color: cornsilk;
+}
 h2 {
     text-align:center;
 }
 .progress {
     margin-bottom: 15px;
 }
-@media only screen and (max-width: 900px) {
-    .basic-info img  {
-        width: 30%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.card {
+    background-color: lavender;
+}
+.carousel-inner img {
+    margin: auto;
+}
+.accordion-body {
+    background-color: cornsilk;
+}
+.accordion-button {
+    background-color: cornsilk;
+}
+@media only screen and (max-width: 1100px) {
     .about-image-div {
         display: flex;
         justify-content: center;
@@ -42,21 +51,17 @@ h2 {
         margin-bottom: 10px;
     }
     .about-image {
-        width: 30%;
+        width: 200px;
+        height: 200px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 }
-@media only screen and (min-width: 901px) {
-    .basic-info img  {
-        width: 20%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+@media only screen and (min-width: 1101px) {
     .about-image {
-        width: 60%;
+        width: 300px;
+        height: 300px;
     }
     .about-image-div {
         display: flex;
