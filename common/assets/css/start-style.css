@@ -15,7 +15,7 @@
 
 .hero-content {
     color: white;
-    top: 45%;
+    top: 35%;
     left: 5%;
     right: 5%;
     position: absolute;
@@ -54,3 +54,4 @@ a:hover {
     background-color: white;
     color: gray;
 }
+
