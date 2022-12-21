@@ -1,0 +1,96 @@
+.navbar-brand{
+    margin-left: .5rem;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+ }
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+}
+.basic-info {
+    margin-top: 10px;
+}
+.experience-text {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.profile-button-icon {
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+}
+body {
+    background-color: cornsilk;
+}
+h2 {
+    text-align:center;
+}
+.progress {
+    margin-bottom: 15px;
+}
+.card {
+    background-color: lavender;
+}
+.carousel-inner img {
+    margin: auto;
+}
+.accordion-body {
+    background-color: cornsilk;
+}
+.accordion-button {
+    background-color: cornsilk;
+}
+.portfolio-logo {
+    padding-top:10px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.portfolio-card {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.modal-portfolio-logo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+    .about-image-div {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-image {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .publication-card {
+        margin-top: 10px; 
+    }
+}
+@media only screen and (min-width: 1101px) {
+    .about-image {
+        width: 300px;
+        height: 300px;
+    }
+    .about-image-div {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .publication-card {
+        margin-top: 10px; 
+        margin-right: 10px;
+        height: 350px;
+    }
+}
