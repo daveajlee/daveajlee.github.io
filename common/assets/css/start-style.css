@@ -62,3 +62,13 @@ a:hover {
         margin-bottom: 15px;
     }
 }
+
+@media only screen and (orientation: landscape) {
+    .hero-content {
+        color: white;
+        top: 15%;
+        left: 5%;
+        right: 5%;
+        position: absolute;
+    }
+}
