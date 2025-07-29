@@ -19,6 +19,25 @@
 
     <!-- Template Main CSS File -->
     <link href="common/assets/css/start-style.css" rel="stylesheet">
+
+    <!-- Detect the appropriate language. Either German or English. If no language is chosen, then the user has to
+     manually choose the language -->
+    <script type='text/javascript'>
+      // Get the languages supported by the browser.
+      const userLocale = navigator.languages && navigator.languages.length ? navigator.languages : navigator.language;
+      for ( let i = 0; i < userLocale.length; i++ ) {
+        // If we find de, then redirect to German version.
+        if ( userLocale[i].startsWith("de") ) {
+          window.location.href = "de/";
+          break;
+        }
+        // If we find en, then redirect to English version.
+        else if ( userLocale[i].startsWith("en") ) {
+          window.location.href = "en/";
+          break;
+        }
+      }
+    </script>
     
   </head>
   <body>
