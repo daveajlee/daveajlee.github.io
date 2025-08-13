@@ -744,6 +744,14 @@ section,
   margin-bottom: 10px;
 }
 
+.resume .resume-item .cv-years-line {
+    font-size: 16px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
