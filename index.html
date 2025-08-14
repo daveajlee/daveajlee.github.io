@@ -27,7 +27,7 @@
       const userLocale = navigator.languages && navigator.languages.length ? navigator.languages : navigator.language;
       for ( let i = 0; i < userLocale.length; i++ ) {
         // If we find de, then redirect to German version.
-        if ( userLocale[i].startsWith("de") ) {
+        /*if ( userLocale[i].startsWith("de") ) {
           window.location.href = "de/";
           break;
         }
@@ -35,7 +35,7 @@
         else if ( userLocale[i].startsWith("en") ) {
           window.location.href = "en/";
           break;
-        }
+        }*/
       }
     </script>
     
