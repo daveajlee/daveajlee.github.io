@@ -1,0 +1,35 @@
+name: 'Release a new version of my web site'
+
+on:
+  workflow_dispatch:
+    inputs:
+      releaseVersion:
+        description: 'Release version number (vx.x.x)'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v5
+
+      - name: Copy release files into release directory
+        run: |
+          mkdir "release"
+          cp "index.html" "release/index.html"
+          cp -r "common/" "release/common/"
+          cp -r "de/" "release/de"
+          cp -r "en/" "release/en"
+
+      - name: Zip release files into a single file
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r release.zip release
+
+      - name: Perform release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "release.zip"
+          tag: ${{ inputs.releaseVersion }}
