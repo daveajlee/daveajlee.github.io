@@ -13,70 +13,101 @@
   <link href="../common/assets/img/favicon.png" rel="icon">
   <link href="../common/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="../common/assets/css/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
-  <link href="../common/assets/css/icofont.min.css" rel="stylesheet">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Vendor CSS Files -->
+    <link href="../common/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../common/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../common/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../common/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../common/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="../common/assets/css/main-style.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="../common/assets/css/main.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+<header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Dr. David A J Lee</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"><i class="bx bx-home"></i> Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills"><i class="bx bx-user"></i> Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#professional-experience"><i class="bx bx-file-blank"></i> Professional Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#research"><i class="bx bx-shape-polygon"></i> Research</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div class="profile-img">
+        <img src="../common/assets/img/profile-img.webp" alt="" class="img-fluid rounded-circle">
     </div>
-  </header><!-- End Header -->
 
-  <section id="privacy-policy">
-    <div class="container" style="margin-top: 20px;">
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">David A J Lee</h1>
+    </a>
 
-      <div>
+    <div class="social-links text-center">
+        <a href="https://www.github.com/daveajlee" aria-label="GitHub Profile" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://open.spotify.com/show/0rmI1Y4Cgk0c8YqhV5MjoM" aria-label="Spotify Profile" class="spotify"><i class="bi bi-spotify"></i></a>
+        <a href="https://www.youtube.com/channel/UCAvevAq4cnQTxbGsQKL3YSw" aria-label="YouTube Profile" class="youtube"><i class="bi bi-youtube"></i></a>
+        <a href="https://de.linkedin.com/in/david-lee-995a64b4" aria-label="LinkedIn Profile" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+        <ul>
+            <li><a href="index.html#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+            <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+            <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+            <li class="dropdown"><a href="index.html#portfolio"><i class="bi bi-code-square navicon"></i> <span>Portfolio</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                    <li class="dropdown"><a href="index.html#portfolio-filter"><span>Apps</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="https://www.davelee.de/notes-and-coins/">Notes & Coins</a></li>
+                            <li><a href="https://www.davelee.de/personalman/">PersonalMan</a></li>
+                            <li><a href="https://www.davelee.de/readmore/">ReadMore</a></li>
+                            <li><a href="https://www.davelee.de/time-tracker/">TimeTracker</a></li>
+                            <li><a href="https://www.davelee.de/trams/">TraMS</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="index.html#portfolio-filter"><span>Podcasts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="https://www.davelee.de/love-life-jesus/#/">Love Life Jesus</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="index.html#portfolio-filter"><span>Software</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="https://www.davelee.de/bibletips/">BibleTips</a></li>
+                            <li><a href="https://www.davelee.de/contacty/">Contacty</a></li>
+                            <li><a href="https://www.davelee.de/devops-scripts/">DevOps Scripts</a></li>
+                            <li><a href="https://www.davelee.de/mdiscis/">MDISCIS</a></li>
+                            <li><a href="https://www.davelee.de/personalman/">PersonalMan</a></li>
+                            <li><a href="https://www.davelee.de/statsres/">Statsres</a></li>
+                            <li><a href="https://www.davelee.de/trams/">TraMS</a></li>
+                            <li><a href="https://www.davelee.de/tv-listings-generator/">TV Listings Generator</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="index.html#research"><i class="bi bi-beaker navicon"></i> Research</a></li>
+        </ul>
+    </nav>
+
+</header>
+<main class="main">
+  <section id="privacy-policy" class="section">
+
+      <div class="container section-title">
         <h2>Privacy Policy</h2>
-          <h4 class="mb-1">TraMS App</h4>
-          <p class="mb-1">This app is developed by David A J Lee. The developer can be contacted via the following e-mail address: apps "AT" davelee.de 
+          <div class="col-lg-8 content">
+            <h4>TraMS App</h4>
+            <p>This app is developed by David A J Lee. The developer can be contacted via the following e-mail address: apps "AT" davelee.de
             This app does not collect, use or share any personal or sensitive user data. All of the data used by the app is stored on the user's device
             and cannot be accessed by the developer in any way. Consequently, there is no requirement for secure data handling procedures or
             a data retention or deletion policy. Further queries can be submitted via the e-mail address: apps "AT" davelee.de</p>
+          </div>
       </div>
+  </section>
 
-      <!-- Vendor JS Files -->
-  <script src="../common/assets/js/bootstrap-5.2.2/bootstrap.bundle.js"></script>
-
+</main>
 </body>
 
 </html>
